@@ -1,0 +1,48 @@
+/* Chart Theme Styles */
+:root {
+  --chart-primary: #2563eb;
+  --chart-secondary: #64748b;
+  --chart-success: #16a34a;
+  --chart-danger: #dc2626;
+  --chart-warning: #ea580c;
+}
+
+.chart-container {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+}
+
+.chart-card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e2e8f0;
+  background-color: white;
+}
+
+.chart-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1e293b;
+}
+
+.chart-legend {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.chart-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.chart-legend-color {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}

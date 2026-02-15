@@ -1,0 +1,14 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+};
+
+export default function DashboardPage() {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold">Dashboard Home</h1>
+      <p className="mt-2 text-gray-600">Welcome to your dashboard</p>
+    </div>
+  );
+}
